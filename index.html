@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+
+    <nav class="nav">
+      <span class="nav_logo">Bobs Burgers</span>
+      <div>
+        <a href="Home" class="Nav__link">Home</a>
+        <a href="About" class="Nav__link">About</a>
+        <a href="Menu" class="Nav__link">Menu</a>
+        <a href="Contact" class="Nav__link">
+          <button class="Nav__link__button">Contact</button>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header id="home">
+      <h1 class="home__title">Bob's Burgers</h1>
+      <p class="home__paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam
+        reiciendis, nihil beatae rem consectetur ad voluptatem tenetur doloribus
+        totam!
+      </p>
+      <button class="home__button">contact us</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="about">
+        <img src="assets/about-image.png" alt="" class="about__image" />
+        <div class="about__wrapper">
+          <h2 class="about__title">About Us</h2>
+          <p class="about__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            molestias quasi a quod quas eveniet ratione nisi rerum officia
+            dolor!
+          </p>
+          <button class="about__button">Learn More</button>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="menu">
+        <div class="menu__wrapper">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            excepturi officiis libero in minima maxime pariatur aperiam impedit
+            veritatis dolores.
+          </p>
+          <button class="menu__button">Learn More</button>
+        </div>
+        <img src="assets/menu-image.png" alt="" class="menu__image" />
+      </section>
+
+      <!-- Contact  -->
+      <section id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <form class="contact__form">
+          <label for="name">name</label>
+          <input type="text" id="name" class="contact__form__input" />
+          <label for="email">email</label>
+          <input type="email" id="email" class="contact__form__input" />
+          <label for="message">message</label>
+          <textarea id="message" class="contact__form__textarea"></textarea>
+          <button class="contact__form__button">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#home" class="footer_link">Home</a>
+      <a href="#about" class="footer_link">About</a>
+      <a href="#menu" class="footer_link">Menu</a>
+      <a href="#contact" class="footer_link">Contact</a>
+    </footer>
+  </body>
+</html>
